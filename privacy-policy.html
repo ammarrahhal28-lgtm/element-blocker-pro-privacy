@@ -1,28 +1,93 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Privacy Policy - Element Blocker Pro</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Privacy Policy – Element Blocker Pro</title>
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 40px auto;
+      max-width: 850px;
+      line-height: 1.7;
+      color: #222;
+    }
+
+    h1 {
+      color: #4b0082;
+      margin-bottom: 20px;
+    }
+
+    h2 {
+      color: #333;
+      margin-top: 30px;
+    }
+
+    p {
+      margin-bottom: 15px;
+    }
+
+    .footer {
+      margin-top: 40px;
+      font-size: 14px;
+      color: #555;
+    }
+  </style>
 </head>
-<body style="font-family: Arial; max-width: 800px; margin: 40px auto; line-height: 1.7;">
-    <h1>Privacy Policy — Element Blocker Pro</h1>
-    <p>
-        Element Blocker Pro does not collect, store, or transmit any personal data from users.
-    </p>
-    <p>
-        All extension functionality runs locally in the user's browser. The extension only uses 
-        <strong>chrome.storage</strong> to save user preferences such as blocked element selectors 
-        and profile settings. These settings remain on the user's device and are never shared with 
-        third parties or external servers.
-    </p>
-    <p>
-        The extension does not track browsing history, monitor user activity, or access any data 
-        from visited websites other than what is necessary to hide user-selected elements.
-    </p>
-    <p>
-        If you have any questions, you may contact the developer at:
-        <br>
-        <strong>ammarrahhal28@gmail.com</strong>
-    </p>
+
+<body>
+  <h1>Privacy Policy – Element Blocker Pro</h1>
+
+  <p>
+    Element Blocker Pro is a browser extension designed to help users hide unwanted
+    elements on websites they visit. Your privacy is extremely important to us, and this
+    policy explains what data is (and is not) collected by the extension.
+  </p>
+
+  <h2>1. Information We Do Not Collect</h2>
+  <p>
+    The extension does <strong>not</strong> collect, store, or transmit any personally
+    identifiable information (PII), browsing history, financial information, passwords,
+    authentication details, or any sensitive data.
+  </p>
+
+  <h2>2. Local Storage Only</h2>
+  <p>
+    All user preferences, blocked items, and extension settings are stored
+    <strong>locally on your device only</strong> using Chrome's <code>storage</code> API.
+    No information is sent to external servers.
+  </p>
+
+  <h2>3. Permissions Explained</h2>
+  <p>
+    <strong>activeTab</strong>: Allows the extension to temporarily access the currently opened
+    tab so the user can hide selected elements.  
+    <br>
+    <strong>scripting</strong>: Required to inject the content script that highlights and removes elements.  
+    <br>
+    <strong>&lt;all_urls&gt;</strong>: Needed to allow the user to hide elements on any website they choose.
+    No data is collected from these websites.
+  </p>
+
+  <h2>4. No Tracking or Analytics</h2>
+  <p>
+    The extension does not use analytics tools, trackers, or remote logging.
+  </p>
+
+  <h2>5. No Third-Party Data Sharing</h2>
+  <p>
+    We do not share, sell, or transmit any user data to third parties.
+  </p>
+
+  <h2>6. Changes to This Policy</h2>
+  <p>
+    If this privacy policy is updated, the new version will be available at the same URL.
+  </p>
+
+  <div class="footer">
+    Last updated: <?php echo date('Y'); ?>
+  </div>
+
 </body>
 </html>
